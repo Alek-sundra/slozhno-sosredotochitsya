@@ -19,6 +19,8 @@
   position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  height: 100vh;
+  min-height: var(--footer-header-heigh, 667px);
   padding: var(--page-padding, 10px);
 }
 
@@ -158,7 +160,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: var(--footer-height, 667px);
+  height: 100vh;
+  min-height: var(--footer-header-heigh, 667px);
 }
 
 .footer-title {
@@ -175,7 +178,7 @@
     --content-padding: 60px 20px;
     --section-margin-block-end: 80px;
     --header-margin-block-end: 162px;
-    --footer-height: 1024px;
+    --footer-header-heigh: 1024px;
   }
 
   .main__title {
@@ -246,7 +249,7 @@
 @media (width>=1024px) {
   :root {
     --header-margin-block-end: 114px;
-    --footer-height: 768px;
+    --footer-header-heigh: 768px;
   }
 
   .content__section {
