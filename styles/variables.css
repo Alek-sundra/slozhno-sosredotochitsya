@@ -3,11 +3,11 @@
   и их переопределение под различные устройства
 */
 :root {
-  --page-padding: 10px; 
+  /* --page-padding: 10px; 
   --content-padding: 40px 10px;
   --header-margin-block-end: 55px;
   --section-margin-block-end: 50px;
-  --footer-height: 667px;
+  --footer-height: 667px; */
 
   --main-font: 'IBM Plex mono', sans-serif;
   --bg-color: #000028;
