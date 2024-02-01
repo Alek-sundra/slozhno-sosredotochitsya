@@ -3,12 +3,6 @@
   и их переопределение под различные устройства
 */
 :root {
-  /* --page-padding: 10px; 
-  --content-padding: 40px 10px;
-  --header-margin-block-end: 55px;
-  --section-margin-block-end: 50px;
-  --footer-height: 667px; */
-
   --main-font: 'IBM Plex mono', sans-serif;
   --bg-color: #000028;
   --accent-color: #FF0070;
@@ -16,4 +10,10 @@
   --title-color: #DB00FF;
   --button-title-color: #FF0070;
   --title-decor-color: #000028;
+
+  --page-padding: 10px;
+  --content-padding: 40px 10px;
+  --header-margin-block-end: 55px;
+  --section-margin-block-end: 50px;
+  --footer-height: 667px;
 }
