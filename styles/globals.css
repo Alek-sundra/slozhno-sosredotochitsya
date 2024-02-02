@@ -42,35 +42,6 @@ a {
 }
 
 button {
-  border: none;
-  padding: 4px 13px;
+  border: none;  
   background-color: transparent;
-}
-
-button:hover {
-  box-shadow: 0 0 0 1px;
-  cursor: pointer;
-}
-
-button:focus {
-  outline: none;
-}
-
-button:focus-visible {
-  box-shadow: 0 1px 0 0;
-  outline: none;
-}
-
-a:hover {
-  box-shadow: 0 1px 0 0;
-  cursor: pointer;
-}
-
-a:focus {
-  outline: none;
-}
-
-a:focus-visible {
-  box-shadow: 0 0 0 1px;
-  outline: none;
 }

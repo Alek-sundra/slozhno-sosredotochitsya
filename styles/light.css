@@ -10,6 +10,7 @@
   --title-color: #ffc2e6;
   --button-title-color: #353430;
   --title-decor-color: #353430;
+  --button-hover-color: 50, 49, 45, 0.4;
 }
 
 .page.theme_light {
@@ -28,6 +29,7 @@
     --title-color: #ffc2e6;
     --button-title-color: #353430;
     --title-decor-color: #353430;
+    --button-hover-color: 50, 49, 45, 0.4;
   }
   .page {
     background-image: url(../images/cover-image-light.png);
