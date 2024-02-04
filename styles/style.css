@@ -195,7 +195,7 @@ a:focus-visible {
   min-height: 100vh;
 }
 
-.footer-title {
+.footer__title {
   text-shadow: 2px 2px 0px var(--accent-color, #ff0070);
 }
 
@@ -291,9 +291,5 @@ a:focus-visible {
 
   .content__section_pictures_grid {
     grid-template-rows: 23px 25.4vw 1fr 42.2vw;
-  }
-
-  .pic-fifth-horisontal {
-    padding-block-start: 5px;
   }
 }
